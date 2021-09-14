@@ -1,7 +1,73 @@
 :root {
-  --main-background: hsl(218, 28%, 13%);
+  --main-background: hsl(217, 28%, 15%);
 }
 
 body {
   background-color: var(--main-background);
+  font-family: sans-serif;
+}
+h2 {
+  color: #fff;
+}
+header {
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  color: white;
+  padding: 5px 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.company-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-description h1 {
+  color: #fff;
+  margin: 0 5px;
+  font-size: 35px;
+}
+
+.get-started {
+  margin-top: 1.5rem;
+  background-image: url("./assets/images/bg-curvy-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 300px;
+}
+
+.get-started p {
+  font-size: 18px;
+  margin: 5px;
+  color: white;
+  font-weight: 500;
+}
+
+.get-started button {
+  cursor: pointer;
+  color: white;
+  width: 280px;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 20px;
+  background: hsl(198, 60%, 50%);
+  font-size: 16px;
+  margin-top: 2rem;
 }
