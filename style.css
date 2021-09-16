@@ -89,6 +89,7 @@ ul li a {
 
 .dark-bg {
   background-color: #181f2b;
+  position: relative;
 }
 
 .productive-section {
@@ -96,7 +97,7 @@ ul li a {
   width: 75%;
   margin: auto;
   justify-content: space-around;
-  padding: 3rem 0;
+  padding: 5rem 0;
   color: white;
   gap: 3rem;
 }
@@ -118,4 +119,44 @@ h2 {
   border-bottom: 1px solid hsl(176, 68%, 64%);
   color: hsl(176, 68%, 64%);
   width: fit-content;
+}
+.team-section-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+}
+.member-card {
+  background: hsl(217, 28%, 15%);
+  color: white;
+  padding: 2rem;
+  z-index: 100;
+}
+.member-card p {
+  margin: 5px 0;
+}
+.member-deatils {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+.member-deatils img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.member-name-position p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.member-name-position span {
+  font-size: 10px;
+}
+
+.double-quotes {
+  position: absolute;
+  left: 5.8rem;
+  top: 0.8rem;
 }
