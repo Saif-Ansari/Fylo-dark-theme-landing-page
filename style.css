@@ -62,7 +62,7 @@ ul li a {
   font-weight: 500;
 }
 
-.get-started button {
+button {
   cursor: pointer;
   color: white;
   width: 280px;
@@ -109,7 +109,7 @@ ul li a {
 }
 
 .productive-description p,
-h2 {
+.productive-description h2 {
   margin: 5px 0;
 }
 .fylo-works {
@@ -159,4 +159,41 @@ h2 {
   position: absolute;
   left: 5.8rem;
   top: 0.8rem;
+}
+.early-access-section {
+  padding: 8rem 0;
+}
+
+.early-access-wrap {
+  position: absolute;
+  left: 20%;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  background: hsl(217, 28%, 15%);
+  padding: 2rem 0;
+  color: white;
+}
+.early-access-wrap p {
+  margin: 5px 0;
+}
+input {
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-right: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.footer {
+  height: 500px;
+  background-color: black;
+}
+.footer .logo {
+  padding-top: 15rem;
+  margin-left: 8rem;
 }
