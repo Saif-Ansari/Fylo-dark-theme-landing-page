@@ -193,7 +193,43 @@ input:focus {
   height: 500px;
   background-color: black;
 }
-.footer .logo {
+.footer-wrap {
   padding-top: 15rem;
   margin-left: 8rem;
+}
+.footer-details {
+  display: flex;
+  color: white;
+  gap: 8rem;
+  margin-top: 2rem;
+}
+
+.address {
+  display: flex;
+  gap: 1rem;
+}
+.address-details p {
+  margin: 0 0 5px 0;
+}
+.contact-details div {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.more-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.more-details a {
+  text-decoration: none;
+  color: white;
+}
+.socials img {
+  margin-right: 1rem;
+}
+.socials a {
+  cursor: pointer;
 }
